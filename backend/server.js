@@ -9,13 +9,13 @@ const app = express()
 
 const server = http.createServer(app)
 
-const io =socketIo("https://krishna-chat-app-gyyx.vercel.app/")
+const io =socketIo("https://krishna-chat-appbackend.vercel.app/")
 
 
 
 app.use(cors())
 app.get("/",(req,res)=>{
-    return res.json("hello world")
+    return res.json("hello")
 })
 
 io.on("connection",(socket)=>{
