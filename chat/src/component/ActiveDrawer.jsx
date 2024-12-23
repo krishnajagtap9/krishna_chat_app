@@ -15,7 +15,7 @@ import { useState ,useEffect} from 'react';
 import { data } from 'react-router-dom';
 
 
-const ENDPOINT ="http://localhost:9000/"
+const ENDPOINT ="https://krishna-chat-appbackend.vercel.app/"
 let socket
 
 
