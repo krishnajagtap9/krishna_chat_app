@@ -1,0 +1,43 @@
+#button{
+    width: 100%;
+    background-color: #24dd6efe;
+color: white;
+font-weight: bolder;
+}
+
+#main_box{
+width: 50%;
+height: 70%;
+overflow-y: auto;
+}
+#child_box{
+    height:30vmax;
+    width: 11%;
+    
+    }
+
+@media screen and (max-width: 768px){
+
+#main_box{
+    width: 70%;
+height: 60%;
+    overflow-y: auto;
+font-size: 1.5vmax;
+}
+#profile{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+#child_box{
+height:40vmax;
+width: 60%;
+}
+
+#button{
+    width: 100%;
+    background-color: #24dd6efe;
+color: white;
+font-weight: bolder;
+}
+}

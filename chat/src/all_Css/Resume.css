@@ -1,0 +1,92 @@
+.profile_section{
+    height: 15vmax;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+
+}
+.box1{
+height: 100%;
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.box2{
+    height: 100%;
+width: 70%;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+gap: 10%;
+    
+    }
+
+    .box2 p{
+        display: flex;
+    
+    }
+  
+    #profile{
+
+height: 80%;
+
+        border: 3px solid black;
+        box-shadow: 3px 3px 6px black;
+    }
+
+
+
+    @media screen and (max-width: 768px){
+        
+        .profile_section{
+            height: 15vmax;
+            width: 27vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .box1{
+            border: 2px solid black;
+            height: 100%;
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            }
+            .box2{
+                border: 2px solid black;
+                height: 100%;
+            width: 60%;
+            font-family:"Roboto";
+            overflow-y: visible;
+            gap: 0%;
+                }
+
+                #profile{
+                    height: 80%;
+                    width: 80%;
+                    border: 3px solid black;
+                    box-shadow: 3px 3px 6px black;
+                }
+
+.box2 p{
+    display: flex;
+flex-direction: column;
+flex: wrap;
+margin-left: 10px;
+padding: 0%;
+
+}
+      #Profession{
+        margin-right: 2vmax;
+        width: 15vmax;
+      } 
+      
+     
+
+    }

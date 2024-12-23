@@ -1,0 +1,72 @@
+.Message{
+    width: 50%;
+    padding: 1vmax;
+    padding-top: 1.2vmax;
+    
+    background-color: gainsboro;
+    margin: 0.5vmax;
+    display: inline-block;
+    clear: both;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right{
+    float: right;
+    background-color:#E3FECB;
+    color:black;
+    border-bottom-right-radius:1.3vmax ;
+border-bottom-left-radius: 0.5vmax;
+border-top-left-radius: 0.5vmax;
+box-shadow: 0px 2px 5px black;
+}
+
+.left{
+    float: left;
+    background-color: white;
+    color:black;
+    border-bottom-right-radius:0.5vmax ;
+    border-bottom-left-radius: 1.3vmax;
+    border-top-right-radius: 0.5vmax;
+    box-shadow: 0px 2px 5px black;
+}
+
+#owner{
+    font-size: .8vmax;
+    font-weight: bolder;
+}
+#time{
+    display: flex;
+justify-content: flex-end;
+font-size: 0.8vmax;
+margin-top: 10px;
+color: gray;
+}
+#message_Description{
+font-size: 0.9vmax;
+
+}
+
+
+
+@media screen and (max-width: 768px){  
+
+.Message{
+width:70% ;
+padding: 0.3vmax;
+display: flex;
+flex-direction: column;
+}
+
+#time{
+    margin-top:0px ;
+}
+.right{
+font-size: 1.3vmax;
+}
+#message_Description{
+    font-size: 1.2vmax;
+}
+#owner{
+    font-size: 1.3vmax;
+}
+ }

@@ -1,0 +1,182 @@
+.chatpage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid black;
+}
+.chatcontainer{
+    background-color: white;
+    height: 70%;
+    width: 25%;
+}
+.header{
+    height: 15%;
+background-color: #108176;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 12px 5px 5px black;
+
+}
+.groupname{
+    height: 100%;
+    width: 70%;
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+font-size: 1.4vmax;
+margin-left: 10px;
+color: white;
+font-weight: bolder;
+
+
+}
+.groupname span{
+    font-size: 0.7vmax;
+}
+.icon_box{
+    height: 100%;
+    width: 30%;
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+
+}
+.chatbox{
+height: 75%;
+box-sizing: border-box;
+overflow-y: scroll;
+background-image: url(../images/whatsappbackgroundimage.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.inputbox{
+    height: 13%;
+    background-image: url(../images/whatsappbackgroundimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    z-index: 3;
+bottom: 8px;
+}
+#chatinput {
+    width: 80%;
+    height: 70%;
+    border: none;
+    outline: none;
+    background-color: white;
+ border-radius:50px;
+padding-left: 1.7vmax;
+box-shadow: 0px 2px 5px black;
+font-size: 1.3vmax;
+margin-top: 10px;
+
+ 
+}
+#chatinput::placeholder{
+    color: rgba(128, 128, 128, 0.762);
+    font-size: 1.2vmax;
+}
+#sendbtn{
+width:3.5vmax;
+height: 3.5vmax;
+background-color: #29f77f;
+cursor: pointer;
+transition: all 0.3s;
+font-size: 1.2vmax;
+border-radius: 50%;
+box-shadow: 0px 2px 5px black;
+margin-top: 10px;
+
+
+}
+
+#send_logo{
+    height: 50%;
+    width: 50%;
+}
+
+@media screen and (max-width: 768px){   
+.chatcontainer{
+width: 60%;
+height: 48%;
+
+
+}
+.chatcontainer::before {
+    content: "";
+    background-image: url('../images/phone_frame.png');
+    position: absolute;
+    height:70% ;
+    width: 80%;
+    background-size: contain;
+background-repeat: no-repeat;
+z-index: 2;
+left: 13%;
+top: 15%;
+
+}
+#chatinput{
+    height: 40%;
+    margin-top: 0.5vmax;
+}
+.inputbox{
+    position: relative;
+    z-index: 3;
+    width: 98%;
+    display: flex;
+align-items: flex-start;
+justify-content: center;
+gap: 0.4vmax;
+}
+.header{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 2px black;
+}
+.groupname{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    font-weight: bolder;
+flex-direction: column;
+margin-top: 15px;
+
+}
+.groupname span {
+    font-size: 8px;
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon_box{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+
+}
