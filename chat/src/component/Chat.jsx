@@ -9,7 +9,7 @@ import Reactscrolltobottm from "react-scroll-to-bottom"
 import SENDIMAGE from "../images/images5.png"
 import ActiveStaus from "../component/ActiveDrawer.jsx"
 
-const ENDPOINT ="https://krishna-chat-app-dadb-9qz5232xz-krishna-jagtaps-projects.vercel.app/"
+const ENDPOINT ="https://krishna-chat-appbackend.vercel.app"
 let socket
 
 const Chat = () => {
