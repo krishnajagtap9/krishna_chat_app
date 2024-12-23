@@ -9,21 +9,13 @@ const app = express()
 
 const server = http.createServer(app)
 
-const io = socketIo(server, {
-    cors: {
-      origin: "https://krishna-chat-app.vercel.app",  
-      methods: ["GET", "POST"],
-      allowedHeaders: ["Content-Type"],
-      credentials: true,
-    },
-  });
-  
+const io =socketIo(server)
 
 
 
 app.use(cors())
 app.get("/",(req,res)=>{
-    return res.json(console.log(io))
+    return res.json("hello world")
 })
 
 io.on("connection",(socket)=>{
