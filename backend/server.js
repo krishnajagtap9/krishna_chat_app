@@ -9,7 +9,7 @@ const app = express()
 
 const server = http.createServer(app)
 
-const io =socketIo(server)
+const io =socketIo("https://krishna-chat-app-gyyx.vercel.app/")
 
 
 
