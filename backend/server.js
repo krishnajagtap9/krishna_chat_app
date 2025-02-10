@@ -15,7 +15,7 @@ const io =socketIo(server)
 
 app.use(cors())
 app.get("/",(req,res)=>{
-    return res.json("hello")
+    return res.json("hello krishna how are you ... get started ")
 })
 
 io.on("connection",(socket)=>{
