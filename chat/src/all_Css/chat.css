@@ -117,13 +117,13 @@ height: 48%;
     content: "";
     background-image: url('../images/phone_frame.png');
     position: absolute;
-    height:70% ;
-    width: 80%;
+    height:80% ;
+    width: 75%;
     background-size: contain;
 background-repeat: no-repeat;
 z-index: 2;
-left: 13%;
-top: 15%;
+left: 12%;
+top: 12%;
 
 }
 #chatinput{
