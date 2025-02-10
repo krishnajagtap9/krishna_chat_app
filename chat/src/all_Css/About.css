@@ -12,7 +12,7 @@ overflow-y: auto;
 }
 #child_box{
     height:30vmax;
-    width: 11%;
+    width: 30vmax;
     
     }
 
@@ -30,8 +30,8 @@ font-size: 1.5vmax;
     object-fit: cover;
 }
 #child_box{
-height:40vmax;
-width: 60%;
+height:70vmax;
+width: 70%;
 }
 
 #button{
